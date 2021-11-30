@@ -3,8 +3,10 @@
     "allowSyntheticDefaultImports": true,
     "lib": ["DOM", "DOM.Iterable", "ESNext"],
     "noImplicitAny": true,
-    "module": "ESNext",
-    "target": "es5",
+    "module": "CommonJS",
+    "target": "ES2018",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
     "allowJs": false,
     "strict": true
   },
