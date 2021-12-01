@@ -1,7 +1,7 @@
 import { pipe, map, range, reduce } from "@fxts/core";
 
 const join = (sep: string) =>
-  reduce<IterableIterator<string>>((a: string, b: string) => `${a}${sep}${b}`);
+  reduce<Iterable<string>>((a: string, b: string) => `${a}${sep}${b}`);
 
 const repeat = (c: string, count: number) =>
   pipe(
