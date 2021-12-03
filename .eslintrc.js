@@ -27,5 +27,6 @@ module.exports = {
     "import/extensions": "off",
     "no-restricted-syntax": "off",
     "guard-for-in": "off",
+    "@typescript-eslint/no-floating-promises": "warn",
   },
 };
