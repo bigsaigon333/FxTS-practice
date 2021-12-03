@@ -9,7 +9,8 @@
   "scripts": {
     "lint": "eslint --fix --cache **/*.{js,ts}",
     "format": "prettier --write --ignore-unknown .",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "ts-nodemon": "nodemon --exec 'ts-node'"
   },
   "devDependencies": {
     "@types/assert": "^1.5.6",
@@ -22,6 +23,7 @@
     "eslint-plugin-import": "^2.22.1",
     "husky": ">=6",
     "lint-staged": ">=10",
+    "nodemon": "^2.0.15",
     "prettier": "2.4.1",
     "typescript": "^4.5.2"
   },
@@ -31,6 +33,6 @@
     "*": "prettier --write --ignore-unknown"
   },
   "dependencies": {
-    "@fxts/core": "^0.2.1"
+    "@fxts/core": "^0.2.2"
   }
 }
