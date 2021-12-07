@@ -30,7 +30,6 @@
   },
   "lint-staged": {
     "*.{js,ts}": "eslint --cache --fix",
-    "*.css": "stylelint --fix",
     "*": "prettier --write --ignore-unknown"
   },
   "dependencies": {
